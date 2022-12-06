@@ -21,3 +21,13 @@ Tipografías
     --intermediate: #D3AE4F;
     --negative: #D34F67;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62,5%;
+    font-family: 'K2D', sans-serif;
+    /* Second font-famili: 'Alegreya Sans', sans-serif; Solo la usaré en el bloque que me haga falta ya que la mayoritaria es la K2D */
+}
