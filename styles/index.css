@@ -31,3 +31,25 @@ html {
     font-family: 'K2D', sans-serif;
     /* Second font-famili: 'Alegreya Sans', sans-serif; Solo la usaré en el bloque que me haga falta ya que la mayoritaria es la K2D */
 }
+body {
+    background-color: #F8F7FF;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+header .isotype {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    align-self: center;
+}
