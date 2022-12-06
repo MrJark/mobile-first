@@ -1,0 +1,23 @@
+ 
+/* 
+Como voy a estructurar el contenido del css y en el orden en que lo voy a hacer
+1. Posicionaiento
+2. Modelo caja(box model)
+Tipografías
+4. Visual
+5. Miscelaneos u Otros
+*/
+
+:root{
+/* Colores */
+    --primary: #B4D2E7;
+    --secondary: #FB6F92;
+    --enphsis: #3E6682;
+    --background-light: #EFEEFF;
+    --brackground-dark: #070617;
+    --black: #0C0C11;
+    --white: #F8F7FF;
+    --positive: #4FD384;
+    --intermediate: #D3AE4F;
+    --negative: #D34F67;
+}
