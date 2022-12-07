@@ -13,13 +13,13 @@ Tipografías
     --primary: #B4D2E7;
     --secondary: #FB6F92;
     --enphsis: #3E6682;
-    --background-light: #EFEEFF;
+    --background-light: #efeeff;
     --brackground-dark: #070617;
     --black: #0C0C11;
     --white: #F8F7FF;
     --positive: #4FD384;
     --intermediate: #D3AE4F;
-    --negative: #D34F67;
+    --negative: #d34f67;
 }
 * {
     box-sizing: border-box;
@@ -43,8 +43,13 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: auto;
+    height: 425px;
     text-align: center;
+    /* Esto es para poner la imagen de fondo*/
+    /* background-image: url('/assets/images/crossfit-competition-photo.jpg');
+    background-position: center;
+    background-size: cover;  */
+    background: linear-gradient(207.8deg, #B4D2E7 20%, #FB6F92 );
 }
 header .isotype {
     width: 180px;
@@ -62,13 +67,24 @@ header .logotype{
     min-width: 288px;
     max-width: 900px;
 }
-header div h1 {
+.header--title-container h1 {
     font-size: 35px;
     padding: 0px 40px;
 }
-header div a {
+.header--title-container .header--button {
+    /* El position: absolute; me permite mover el boton por cualquier parte de la pantalla sin que tenga que estar sujeto a un contenedor. Y lo puedo mover poniendo top, bottom, left and right. Así puedo salirme del header y dar la sensación que es un botón flotante. */
+    position: absolute;
+    top: 385px;
+    right: 33%;
     text-decoration: none;
     color: var(--primary);
     background-color: var(--brackground-dark);
     font-size: 30px;
+    padding: 10px;
+    height: 70px;
+    width: 137px;
+    box-shadow: 0px 4px 8px rgba(239, 238, 255, 0.2);
+    border: none;
+    border-radius: 50px;
+    
 }
