@@ -27,7 +27,6 @@ Tipografías
     padding: 0;
 }
 html {
-    font-size: 62,5%;
     font-family: 'K2D', sans-serif;
     /* Second font-famili: 'Alegreya Sans', sans-serif; Solo la usaré en el bloque que me haga falta ya que la mayoritaria es la K2D */
 }
@@ -44,12 +43,32 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: auto;
     text-align: center;
 }
 header .isotype {
-    width: 100px;
+    width: 180px;
     height: auto;
-    margin-top: 20px;
+    margin: 40px 0px 20px 0px;
     align-self: center;
+}
+header .logotype{
+    align-self: center;
+    margin-bottom: 40px;
+    width: 300px;
+}
+.header--title-container {
+    height: 170px;
+    min-width: 288px;
+    max-width: 900px;
+}
+header div h1 {
+    font-size: 35px;
+    padding: 0px 40px;
+}
+header div a {
+    text-decoration: none;
+    color: var(--primary);
+    background-color: var(--brackground-dark);
+    font-size: 30px;
 }
