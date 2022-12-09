@@ -10,9 +10,10 @@ Tipografías
 
 :root{
 /* Colores */
-    --primary: #B4D2E7;
-    --secondary: #FB6F92;
-    --enphsis: #3E6682;
+    --primary: #4EA6E3;
+    --secondary: #DA42C2;
+    --soft-primary: #B4D2E7;
+    --soft-secondary: #FB6F92;
     --background-light: #efeeff;
     --brackground-dark: #070617;
     --black: #0C0C11;
