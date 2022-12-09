@@ -47,11 +47,11 @@ header {
     height: 425px;
     text-align: center;
     /* Esto es para poner la imagen de fondo*/
-    /* background-image: url('/assets/images/crossfit-competition-photo.jpg');
+    background-image: url('/assets/images/Photo-Header.png');
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; /* Con esto lo que hago es que cuando l aimagen sea más pequeña que ele contenedor no repetirla ya que si no lo pongo, por defecto la imagen se repite para rellenar el hueco que falta */
-    background: linear-gradient(138deg, #4EA6E3 , #DA42C2 );
+    background-size: cover; /*Con esto cubro todo el contenerdor */
+    background-repeat: no-repeat; /* Con esto lo que hago es que cuando l aimagen sea más pequeña que ele contenedor no repetirla ya que si no lo pongo, por defecto la imagen se repite para rellenar el hueco que falta*/
+    /* background: linear-gradient(138deg, #4EA6E3 , #DA42C2 ); Para gradientes*/
 }
 header .isotype {
     width: 180px;
@@ -101,13 +101,17 @@ main .advan-desadvan {
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
-    margin-top: 60px;
     min-width: 288px;
     max-width: 900px;
 }
 main .advan-desadvan h2 {
     text-decoration: underline;
+    color: var(--black);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 14px;
 }
-main .advan-desadvan li {
-
+main .advan-desadvan ul {
+    font-family: 'Alegreya Sans, sans-serif';
+    font-size: 18px;
 }
