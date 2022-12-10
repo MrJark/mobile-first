@@ -144,9 +144,10 @@ main .main-benefits-table ul {
     color: var(--soft-primary);
     margin-bottom: 12px;
 }
-.main-needs-container .main-need--title-2 .title-2__top {
+.main-needs-container .title-2__top {
     display: flex;
     justify-content: space-evenly;
+    padding: 0px 35px;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 18px;
     margin-bottom: 8px;
@@ -161,3 +162,69 @@ main .main-benefits-table ul {
 
 /* MAIN SECTION 3 */
 
+.main-categories-container .categories-container h2 {
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 16px;
+
+}
+.main-categories-container .categories-container--tables {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.main-categories-container .table__rx {
+    background-color: var(--brackground-dark);
+    margin: 8px;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+.main-categories-container .table__rx td {
+    color: var(--white);
+}
+.main-categories-container .table__rx td h3 {
+    margin-bottom: 9px;
+    text-decoration: underline;
+}
+.main-categories-container .table__rx td p {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.main-categories-container .table__int {
+    background-color: var(--brackground-dark);
+    margin: 8px;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+.main-categories-container .table__int td {
+    color: var(--white);
+}
+.main-categories-container .table__int td h3 {
+    margin-bottom: 9px;
+    text-decoration: underline;
+}
+.main-categories-container .table__int td p {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.main-categories-container .table__scaled {
+    background-color: var(--brackground-dark);
+    margin: 8px;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+.main-categories-container .table__scaled td {
+    color: var(--white);
+}
+.main-categories-container .table__scaled td h3 {
+    margin-bottom: 9px;
+    text-decoration: underline;
+}
+.main-categories-container .table__scaled td p {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
