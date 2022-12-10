@@ -93,7 +93,7 @@ header .logotype{
 /* MAIN */
 
 /* MAIN SECTION 1 */
-main .advan-desadvan {
+main .main-benefits-table {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -104,14 +104,14 @@ main .advan-desadvan {
     min-width: 288px;
     max-width: 900px;
 }
-main .advan-desadvan h2 {
+main .main-benefits-table h2 {
     text-decoration: underline;
     color: var(--black);
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 14px;
 }
-main .advan-desadvan ul {
+main .main-benefits-table ul {
     font-family: 'Alegreya Sans, sans-serif';
     font-size: 18px;
 }
