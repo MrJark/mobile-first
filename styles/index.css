@@ -93,7 +93,7 @@ header .logotype{
 /* MAIN */
 
 /* MAIN SECTION 1 */
-main .main-benefits-table {
+main .main-benefits-container {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -104,14 +104,14 @@ main .main-benefits-table {
     min-width: 288px;
     max-width: 900px;
 }
-main .main-benefits-table h2 {
+main .main-benefits-container h2 {
     text-decoration: underline;
     color: var(--black);
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 14px;
 }
-main .main-benefits-table ul {
+main .main-benefits-container ul {
     font-family: 'Alegreya Sans, sans-serif';
     font-size: 18px;
 }
