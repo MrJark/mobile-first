@@ -44,6 +44,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
+    max-width: 900px;
     height: 425px;
     text-align: center;
     /* Esto es para poner la imagen de fondo*/
@@ -101,7 +102,7 @@ main .main-benefits-container {
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
-    min-width: 288px;
+    min-width: 320px;
     max-width: 900px;
 }
 main .main-benefits-container h2 {
@@ -125,7 +126,7 @@ main .main-benefits-container ul {
     margin-bottom: 20px;
     padding-top: 18px;
     padding-bottom: 18px;
-    min-width: 288px;
+    min-width: 320px;
     max-width: 900px;
     background-color: var(--brackground-dark);
     color: var(--white);
@@ -162,6 +163,11 @@ main .main-benefits-container ul {
 
 /* MAIN SECTION 3 */
 
+.main-categories-container {
+    padding: 0px 5px 0px 5px;
+    min-width: 320px;
+    max-width: 900px;
+}
 .main-categories-container .categories-container h2 {
     text-align: center;
     color: var(--black);
@@ -243,6 +249,9 @@ main .main-benefits-container ul {
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;
+    padding: 0px 5px 50px 5px;
+    min-width: 320px;
+    max-width: 900px;
 }
 .main-plans-containers .plans-containers h2 {
     color: var(--white);
@@ -349,7 +358,7 @@ main .main-benefits-container ul {
 }
 .plans-containers .plans-container--requirements {
     margin: 20px 25px 0px 25px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     color: var(--white);
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
@@ -357,3 +366,29 @@ main .main-benefits-container ul {
 }
 
 /* MAIN SECTION 4 */
+
+.main-datails-containers {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 65px 10px 50px 10px;
+    min-width: 320px;
+    max-width: 900px;
+}
+.ovisclub-logotype-gradient img {
+    width: 140px;
+    height: auto;
+}
+.ovisclub-logotype-gradient {
+    position: absolute; /*cuando ponemos un position: absolute, tenemos que fijarnos cual es el contenedor pader que tiene el position: relative, ya que este absolute irá a buscar a ese contenedor padre, por tanto, cuando queramos un boton flotante, tenemos que poner en el contenedor padre un position: relative. */
+    width: 110px;
+    top: -35px;
+    left: calc(50% - 64px); /* le quito esos px porque el logo tiene un ancho que si le pongo el 50%, empezaría desde lo más a la izq del logo y yo quiero que empiece desde el centro del logo, por tanto le tengo que quitar lo que mide */
+}
+.detail-container--title {
+    text-align: center;
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
