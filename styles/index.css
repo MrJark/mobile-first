@@ -286,7 +286,67 @@ main .main-benefits-table ul {
 .plans-containers .plans-containers--tables .table__plan-1 .not-viable td{
     color: var(--negative);
 }
-
+.plans-containers--tables .table__plan-2 {
+    background-color: var(--background-light);
+    margin: 8px;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+.plans-containers--tables .table__plan-2 td {
+    color: var(--black);
+}
+.plans-containers--tables .plan2__title-n-price {
+    padding-bottom: 8px;
+    text-align: center;
+}
+.plans-containers--tables .table__plan-2 td h3 {
+    text-decoration: underline;
+}
+.plans-containers--tables .table__plan-2 td p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+.plans-containers--tables .plan2__include {
+    padding-bottom: 4px;
+    text-align: center;
+}
+.main-categories-container .table__plan-2 td p {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.plans-containers .plans-containers--tables .table__plan-2 .not-viable td{
+    color: var(--negative);
+}
+.plans-containers--tables .table__plan-3 {
+    background-color: var(--background-light);
+    margin: 8px;
+    padding: 20px 3px;
+    border-radius: 20px;
+}
+.plans-containers--tables .table__plan-3 td {
+    color: var(--black);
+}
+.plans-containers--tables .plan3__title-n-price {
+    padding-bottom: 8px;
+    text-align: center;
+}
+.plans-containers--tables .table__plan-3 td h3 {
+    text-decoration: underline;
+}
+.plans-containers--tables .table__plan-3 td p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+}
+.plans-containers--tables .plan3__include {
+    padding-bottom: 4px;
+    text-align: center;
+}
+.main-categories-container .table__plan-3 td p {
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 500;
+}
 .plans-containers .plans-container--requirements {
     margin: 20px 25px 0px 25px;
     padding-bottom: 30px;
@@ -295,3 +355,5 @@ main .main-benefits-table ul {
     font-size: 16px;
     font-weight: 300;
 }
+
+/* MAIN SECTION 4 */
