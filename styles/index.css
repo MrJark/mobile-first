@@ -435,6 +435,23 @@ main .main-benefits-container ul {
     font-weight: 300;
 }
 
+/* código si yo quisiera un sacroll para los precios porque tengo tarjetas mas grandes y diseñadas para verse en cuadrado y no en rectánfulo */
+/* 
+.table__plan-1 (2 y 3) {
+    //añadimos a lo que ya tenemos de ese contenedor lo siguiente//
+    scrool-sanp-aling: center; //esto me hace que el browser cuando esté cerca de una tarjeta me la centre (en x) y no quede entre mitad de una y otra//
+}
+    además, añadimos en el .plans-containers los estilos para el scroll
+.plans-containers {
+    display: flex;
+    height: 316px; //tiene que ser mayor que la tarjeta para que de sensación de estar encima la card//
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proxymity; 
+}
+esto está ne la clase 27 de este curso: Maquetación Mobile First de DiegoDeGranda
+*/
+
 /* MAIN SECTION 5 */
 
 .main-datails-containers {
@@ -509,3 +526,6 @@ main .main-benefits-container ul {
 .details-conteiners--card .datail--card-body {
     font-family: 'Alegreya Sans', sans-serif;
 }
+
+/* FOOTER */
+
