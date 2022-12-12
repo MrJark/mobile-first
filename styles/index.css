@@ -312,7 +312,7 @@ main .main-benefits-container ul {
     margin-top: 16px;
 }
 .table__plan-1 .plan1__button .button__apply-plan {
-    color: var(--primary);
+    color: var(--soft-primary);
     background: none;
     border: none;
     display: flex;
@@ -366,7 +366,7 @@ main .main-benefits-container ul {
     margin-top: 16px;
 }
 .table__plan-2 .plan2__button .button__apply-plan {
-    color: var(--primary);
+    color: var(--soft-primary);
     background: none;
     border: none;
     display: flex;
@@ -417,7 +417,7 @@ main .main-benefits-container ul {
     margin-top: 16px;
 }
 .table__plan-3 .plan3__button .button__apply-plan {
-    color: var(--primary);
+    color: var(--soft-primary);
     background: none;
     border: none;
     display: flex;
@@ -498,7 +498,6 @@ main .main-benefits-container ul {
     height: auto;
     margin: 5px;
 }
-
 .details-conteiners--card p {
     margin-left: 15px;
 }
