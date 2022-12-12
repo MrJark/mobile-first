@@ -45,7 +45,7 @@ header {
     width: 100%;
     min-width: 320px;
     max-width: 900px;
-    height: 425px;
+    height: 450px;
     text-align: center;
     /* Esto es para poner la imagen de fondo*/
     background-image: url('/assets/images/Photo-Header.png');
@@ -77,7 +77,7 @@ header .logotype{
 .header--title-container .header--button {
     /* El position: absolute; me permite mover el boton por cualquier parte de la pantalla sin que tenga que estar sujeto a un contenedor. Y lo puedo mover poniendo top, bottom, left and right. Así puedo salirme del header y dar la sensación que es un botón flotante. */
     position: absolute;
-    top: 385px;
+    top: calc(100% - 36px); /*son -36px porque es el height del boton (aprox) */
     right: calc(50% - 75px); /*son -75 porque quiero tener el boton en el centro(50% de la pantalla) pero los calculos se hacen desde el lateral izquierdo del boton, po tanto, tengo que quitarle la mitad de lo que mide el propio boton, la mitad del width para que se me centre en el centro mismo de la pantalla a partir de centro del boton */
     text-decoration: none;
     letter-spacing: 4px;
@@ -245,7 +245,7 @@ main .main-benefits-container ul {
     font-weight: 300;
 }
 
-/* MAIN SECTION 3 */
+/* MAIN SECTION 4 */
 
 .main-plans-containers {
     background-image: url('/assets/images/Photo-Section-Plans.png');
@@ -271,6 +271,7 @@ main .main-benefits-container ul {
     margin: 8px;
     padding: 20px 3px;
     border-radius: 20px;
+    height: 290px;
 }
 .plans-containers--tables .table__plan-1 td {
     color: var(--black);
@@ -297,6 +298,28 @@ main .main-benefits-container ul {
 }
 .plans-containers .plans-containers--tables .table__plan-1 .not-viable td{
     color: var(--negative);
+}
+.table__plan-1 .plan1__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brackground-dark);
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.table__plan-1 .plan1__button .button__apply-plan {
+    color: var(--primary);
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+    padding-left: 4px;
 }
 .plans-containers--tables .table__plan-2 {
     background-color: var(--background-light);
@@ -368,7 +391,7 @@ main .main-benefits-container ul {
     font-weight: 300;
 }
 
-/* MAIN SECTION 4 */
+/* MAIN SECTION 5 */
 
 .main-datails-containers {
     position: relative;
