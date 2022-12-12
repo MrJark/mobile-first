@@ -318,7 +318,7 @@ main .main-benefits-container ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding-left: 4px;
 }
 .plans-containers--tables .table__plan-2 {
@@ -372,7 +372,7 @@ main .main-benefits-container ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding-left: 4px;
 }
 .plans-containers--tables .table__plan-3 {
@@ -423,7 +423,7 @@ main .main-benefits-container ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding-left: 4px;
 }
 .plans-containers .plans-container--requirements {
