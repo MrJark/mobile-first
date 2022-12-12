@@ -390,8 +390,56 @@ main .main-benefits-container ul {
 }
 .detail-container--title {
     text-align: center;
-    width: 90%;
-    min-width: 288px;
+    width: 100%;
+    min-width: 320px;
+    max-width: 900px;
     height: auto;
     margin: 0 auto;
+    margin-bottom: 25px;
+}
+.details-conteiners--card {
+    width: 100%;
+    height: auto;
+    margin-top: 14px;
+    color: var(--white);
+    background-color: var(--brackground-dark);
+    border-radius: 20px;
+    padding: 12px 10px;
+}
+.details-conteiners--card .clock img {
+    /* No he conseguido poner a través de background-image colocar el svg,(tendría que quitar la clase img del css porque no exitiría) lo he hecho a través de img en html pero si puediera, la configuración sería la siguiente: */
+    /* background-image: url('/assets/icons/clock.svg'); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    width: 20px;
+    height: auto;
+    margin: 5px;
+}
+.details-conteiners--card .eye img {
+    width: 24px;
+    height: auto;
+    margin: 5px;
+}
+.details-conteiners--card .wallet img {
+    width: 24px;
+    height: auto;
+    margin: 5px;
+}
+.details-conteiners--card .hands img {
+    width: 26px;
+    height: auto;
+    margin: 5px;
+}
+
+.details-conteiners--card p {
+    margin-left: 15px;
+}
+.details-conteiners--card .datail--card-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.details-conteiners--card .datail--card-body {
+    font-family: 'Alegreya Sans', sans-serif;
 }
