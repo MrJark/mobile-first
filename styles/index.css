@@ -78,14 +78,17 @@ header .logotype{
     /* El position: absolute; me permite mover el boton por cualquier parte de la pantalla sin que tenga que estar sujeto a un contenedor. Y lo puedo mover poniendo top, bottom, left and right. Así puedo salirme del header y dar la sensación que es un botón flotante. */
     position: absolute;
     top: 385px;
-    right: 33%;
+    right: calc(50% - 75px); /*son -75 porque quiero tener el boton en el centro(50% de la pantalla) pero los calculos se hacen desde el lateral izquierdo del boton, po tanto, tengo que quitarle la mitad de lo que mide el propio boton, la mitad del width para que se me centre en el centro mismo de la pantalla a partir de centro del boton */
     text-decoration: none;
+    letter-spacing: 4px;
     color: var(--primary);
     background-color: var(--brackground-dark);
     font-size: 30px;
-    padding: 10px;
+    margin: 0 auto;
+    padding-left: 7px;
+    padding-top: 12px;
     height: 70px;
-    width: 137px;
+    width: 150px;
     box-shadow: 0px 4px 8px rgba(239, 238, 255, 0.2);
     border: none;
     border-radius: 50px;
