@@ -48,7 +48,7 @@ header {
     height: 450px;
     text-align: center;
     /* Esto es para poner la imagen de fondo*/
-    background-image: url('/assets/images/Photo-Header.png');
+    background-image: url('/assets/images/photo-header-ovisclub.png');
     background-position: center;
     background-size:cover; /*Con esto cubro todo el contenerdor */
     background-repeat: no-repeat; /* Con esto lo que hago es que cuando l aimagen sea más pequeña que ele contenedor no repetirla ya que si no lo pongo, por defecto la imagen se repite para rellenar el hueco que falta*/
@@ -248,7 +248,7 @@ main .main-benefits-container ul {
 /* MAIN SECTION 4 */
 
 .main-plans-containers {
-    background-image: url('/assets/images/Photo-Section-Plans.png');
+    background-image: url('/assets/images/photo-our-plans-ovisclub.png');
     background-position: center;
     background-size:cover; 
     background-repeat: no-repeat;

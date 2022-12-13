@@ -1,4 +1,9 @@
 
 Al aplicar el Lighthouse del DevTools me da una performance del 86% y unas best practices del 100%.
 La performance es tan baja porque se me olvidó pasar las fotos del header y de la parte de 'our plans' por 'TinyPNG' o cualquier otro programa praa compactar y reducir el pase y por tanto, a la hora de carga, es muy lento en esas zonas.
+
+------------
+ Procedo a cambiar las imagenes y pasarlas por TinyPNG
+ ------------
+
  
