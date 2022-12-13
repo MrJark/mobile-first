@@ -534,5 +534,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+    height: 80px;
+    background-color: var(--brackground-dark);
+    border-radius: 20px 20px 0px 0px;
+    min-width: 320px;
+    max-width: 900px;
+}
+.privacity-page {
+    color: var(--white);
+}
+.social-menu a {
+    text-decoration: none;
+    margin-left: 6px;
 }
