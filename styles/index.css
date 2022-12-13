@@ -525,7 +525,14 @@ esto está ne la clase 27 de este curso: Maquetación Mobile First de DiegoDeGra
 }
 .details-conteiners--card .datail--card-body {
     font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 8px;
 }
 
 /* FOOTER */
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
